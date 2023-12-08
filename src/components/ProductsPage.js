@@ -1,6 +1,5 @@
 import producstData from '../products-data.json';
 import { useState } from 'react';
-import ProductRow from './ProductRow';
 import ProductsTable from './ProductsTable';
 import SearchBar from './SearchBar';
 
