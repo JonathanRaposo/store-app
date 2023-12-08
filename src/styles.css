@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/* .App {
+    text-align: center;
+} */
+.ProductsPage{
+    text-align: center;
+}
+.ProducstPage h1{
+    text-align: center;
+}
+table {
+    width: 1000px;
+    margin: 50px auto auto 250px;
+    border-collapse: collapse;
+    text-align: left;
+
+}
+.SearchBar {
+    text-align: center;
+}
+.SearchBar label{
+    display: block;
+    margin:20px;
+}
+.SearchBar input{
+    width: 500px;
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    outline: none;
+}
+.SearchBar #check-box{
+    width: 30px;
+    margin: 20px
+}
+
+
+table th td {
+    padding: 10px;
+    
+}
