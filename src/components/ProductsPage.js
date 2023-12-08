@@ -9,16 +9,14 @@ const ProductsPage = () => {
     const [query, setQuery] = useState('');
     const [inStock, setInStock] = useState(false)
 
-
     const handleQuery = (e) => {
         setQuery(e.target.value)
     }
 
-
-
     const toggleinStockFilter = () => {
         setInStock(!inStock);
     }
+
     const getFilteredProducts = (query, items) => {
         const filteredProducts = products.filter((product) => (
             product.name.toLowerCase().includes(query.toLowerCase())
@@ -29,9 +27,6 @@ const ProductsPage = () => {
         return filteredProducts;
     }
     let filteredProducts = getFilteredProducts(query, products);
-
-
-
     filteredProducts = inStock ? products.filter((product) => product.inStock) : filteredProducts
     // if (inStock) {
     //     filteredProducts = products.filter((product) => product.inStock)
